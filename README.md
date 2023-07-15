@@ -1,6 +1,4 @@
-Notas:
-
-
+# Steps to Run 
 npx tsc src ejemplo.ts
 npm src/ejemplo.js
 # Node y browser run JS
