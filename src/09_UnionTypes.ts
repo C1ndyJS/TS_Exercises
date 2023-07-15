@@ -16,5 +16,4 @@
   greeting(1);
   greeting('Daniel');
 
-
 })();
