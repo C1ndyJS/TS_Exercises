@@ -21,6 +21,17 @@ let myProduct = 'Soda'; //CORRECTO
 let comillasDobles = 'Puedo "usar" comillas dobles tambien'; //CORRECTO
 let comillaInvalida = 'No puedo 'usar' otra vez una comilla simple'; //INCORRECTO
 
+# Tipos de datos Exclusivos 
+El tipo de dato any “desactiva” el tipado de TS, volviendo de cierta forma a JS.
+No es recomendado usar any. Sin embargo, puede ser útil cuando estamos migrando código JS a TS.
+Podemos convertir de any a cualquier otro tipo de dato con el as operator. Este se usa de la siguiente forma.
+
+# casting 
+let myDinamicVar: Any;
+myDynamicVar = 'Hola';
+myDynamicVar = 123;
+const rta2 = (<number>myDynamicVar).toFixed(); //Ahora trata a dinamycVar como number
+  
 
 # Steps to Run 
 npx tsc src ejemplo.ts
