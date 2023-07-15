@@ -31,8 +31,7 @@ let myDinamicVar: Any;
 myDynamicVar = 'Hola';
 myDynamicVar = 123;
 const rta2 = (<number>myDynamicVar).toFixed(); //Ahora trata a dinamycVar como number
-  
-
+# Objetos Como tipos 
 # Steps to Run 
 npx tsc src ejemplo.ts
 npm src/ejemplo.js
