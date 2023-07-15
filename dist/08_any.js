@@ -7,8 +7,8 @@
     myDynamicVar = ""; // string
     myDynamicVar = 'Hola';
     //casting
-    const rta = myDynamicVar.toLowerCase(); //Ahora trata a dinamycVar como string
-    console.log('rta', rta);
-    myDynamicVar = 123;
-    const rta2 = myDynamicVar.toFixed(); //Ahora trata a dinamycVar como number
+    //const rta=(myDynamicVar as string).toLowerCase(); //Ahora trata a dinamycVar como string
+    //console.log('rta', rta)
+    const rta2 = myDynamicVar.toLowerCase(); //Ahora trata a dinamycVar como number
+    myDynamicVar = 'Holi';
 })();

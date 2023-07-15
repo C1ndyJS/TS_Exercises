@@ -37,5 +37,4 @@ console.log('producto2', producto2);
 console.log('Strock', producto2.stock);
 
 
-
 })();
