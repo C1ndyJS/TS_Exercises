@@ -8,6 +8,20 @@ cons  declaracion: tipado(type annotation) = valor
 # type annotation
 Asignación del tipo de dato
 
+# Funcion Anonima AutoInvocada
+ Me permite utilizar el mismo nombre de variables dentro de diferentes archivos, las trata dentro de un mismo scop
+
+# Tipos Inferidos
+TypeScript puede inferir el tipo de dato de una variable a pesar de no haberlo declarado explícitamente.
+# Tipos de datos primitivos 
+numbers 
+booleans 
+string //Las puedo definir con comillas simples, con comillas doble
+let myProduct = 'Soda'; //CORRECTO
+let comillasDobles = 'Puedo "usar" comillas dobles tambien'; //CORRECTO
+let comillaInvalida = 'No puedo 'usar' otra vez una comilla simple'; //INCORRECTO
+
+
 # Steps to Run 
 npx tsc src ejemplo.ts
 npm src/ejemplo.js
