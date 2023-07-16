@@ -1,4 +1,4 @@
-JavaScript Es muy flexible, yo puedo declarar una variable de un tipon valor y a lo latrgo de mi codigo ir cambiando ese tipo de acuerdo a lo que se desea 
+## JavaScript Es muy flexible, yo puedo declarar una variable de un tipon valor y a lo latrgo de mi codigo ir cambiando ese tipo de acuerdo a lo que se desea 
 , es decir que puedo tener una variable tipo bool y a cambiandolo posteriormente esa variable ser de tipo dstring si así lo necesito 
 
 # Controlando la flexibilidad
