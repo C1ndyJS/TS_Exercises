@@ -7,10 +7,10 @@
   myDynamicVar = ""; // string
   myDynamicVar = 'Hola'
   //casting
-  //const rta=(myDynamicVar as string).toLowerCase(); //Ahora trata a dinamycVar como string
-  //console.log('rta', rta)
+  let rta=(myDynamicVar as string).toLowerCase(); //Ahora trata a dinamycVar como string
+  console.log('rta', rta)
 
 
-  //myDinamicVar = (<string>myDynamicVar).toLowerCase(); //Ahora trata a dinamycVar como number
+  rta = (<number>myDynamicVar).toPrecision(); //Ahora trata a dinamycVar como number
 
 })();
